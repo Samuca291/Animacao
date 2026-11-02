@@ -1,0 +1,3237 @@
+{
+ "source": "piper:pt_BR-faber-medium",
+ "method": "prefix-duration",
+ "scenes": {
+  "s01-gancho": {
+   "audio": "audio/s01-gancho.wav",
+   "duration_s": 6.754,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.0,
+     "end": 0.235
+    },
+    {
+     "text": "que",
+     "start": 0.235,
+     "end": 0.337
+    },
+    {
+     "text": "aconteceria",
+     "start": 0.337,
+     "end": 0.864
+    },
+    {
+     "text": "se",
+     "start": 0.864,
+     "end": 1.095
+    },
+    {
+     "text": "você",
+     "start": 1.095,
+     "end": 1.409
+    },
+    {
+     "text": "ficasse",
+     "start": 1.409,
+     "end": 1.87
+    },
+    {
+     "text": "com",
+     "start": 1.87,
+     "end": 2.012
+    },
+    {
+     "text": "o",
+     "start": 2.012,
+     "end": 2.072
+    },
+    {
+     "text": "dobro",
+     "start": 2.072,
+     "end": 2.235
+    },
+    {
+     "text": "de",
+     "start": 2.235,
+     "end": 2.343
+    },
+    {
+     "text": "inteligência",
+     "start": 2.343,
+     "end": 2.989
+    },
+    {
+     "text": "a",
+     "start": 2.989,
+     "end": 3.122
+    },
+    {
+     "text": "cada",
+     "start": 3.122,
+     "end": 3.334
+    },
+    {
+     "text": "dia",
+     "start": 3.334,
+     "end": 3.549
+    },
+    {
+     "text": "que",
+     "start": 3.549,
+     "end": 3.677
+    },
+    {
+     "text": "acordasse?",
+     "start": 3.677,
+     "end": 4.21
+    },
+    {
+     "text": "Spoiler:",
+     "start": 4.63,
+     "end": 5.026
+    },
+    {
+     "text": "fica",
+     "start": 5.286,
+     "end": 5.521
+    },
+    {
+     "text": "esquisito",
+     "start": 5.521,
+     "end": 6.003
+    },
+    {
+     "text": "muito",
+     "start": 6.003,
+     "end": 6.378
+    },
+    {
+     "text": "rápido.",
+     "start": 6.378,
+     "end": 6.754
+    }
+   ]
+  },
+  "s02-regra": {
+   "audio": "audio/s02-regra.wav",
+   "duration_s": 12.837,
+   "words": [
+    {
+     "text": "A",
+     "start": 0.0,
+     "end": 0.195
+    },
+    {
+     "text": "regra",
+     "start": 0.195,
+     "end": 0.516
+    },
+    {
+     "text": "é",
+     "start": 0.516,
+     "end": 0.673
+    },
+    {
+     "text": "simples.",
+     "start": 0.673,
+     "end": 1.064
+    },
+    {
+     "text": "Hoje",
+     "start": 1.444,
+     "end": 1.735
+    },
+    {
+     "text": "à",
+     "start": 1.735,
+     "end": 1.795
+    },
+    {
+     "text": "noite,",
+     "start": 1.795,
+     "end": 2.298
+    },
+    {
+     "text": "você",
+     "start": 2.298,
+     "end": 2.718
+    },
+    {
+     "text": "dorme",
+     "start": 2.718,
+     "end": 2.883
+    },
+    {
+     "text": "do",
+     "start": 2.883,
+     "end": 2.972
+    },
+    {
+     "text": "jeitinho",
+     "start": 2.972,
+     "end": 3.433
+    },
+    {
+     "text": "que",
+     "start": 3.433,
+     "end": 3.538
+    },
+    {
+     "text": "é.",
+     "start": 3.538,
+     "end": 3.69
+    },
+    {
+     "text": "Amanhã,",
+     "start": 4.07,
+     "end": 4.64
+    },
+    {
+     "text": "ao",
+     "start": 4.64,
+     "end": 4.878
+    },
+    {
+     "text": "acordar,",
+     "start": 4.878,
+     "end": 5.352
+    },
+    {
+     "text": "sua",
+     "start": 5.352,
+     "end": 5.663
+    },
+    {
+     "text": "inteligência",
+     "start": 5.663,
+     "end": 6.374
+    },
+    {
+     "text": "dobra.",
+     "start": 6.374,
+     "end": 6.704
+    },
+    {
+     "text": "Depois",
+     "start": 7.084,
+     "end": 7.521
+    },
+    {
+     "text": "de",
+     "start": 7.521,
+     "end": 7.581
+    },
+    {
+     "text": "amanhã,",
+     "start": 7.581,
+     "end": 7.943
+    },
+    {
+     "text": "dobra",
+     "start": 7.943,
+     "end": 8.286
+    },
+    {
+     "text": "de",
+     "start": 8.286,
+     "end": 8.37
+    },
+    {
+     "text": "novo.",
+     "start": 8.37,
+     "end": 8.71
+    },
+    {
+     "text": "E",
+     "start": 9.09,
+     "end": 9.288
+    },
+    {
+     "text": "assim",
+     "start": 9.288,
+     "end": 9.595
+    },
+    {
+     "text": "por",
+     "start": 9.595,
+     "end": 9.695
+    },
+    {
+     "text": "diante,",
+     "start": 9.695,
+     "end": 10.223
+    },
+    {
+     "text": "todo",
+     "start": 10.223,
+     "end": 10.584
+    },
+    {
+     "text": "santo",
+     "start": 10.584,
+     "end": 10.958
+    },
+    {
+     "text": "dia,",
+     "start": 10.958,
+     "end": 11.155
+    },
+    {
+     "text": "sem",
+     "start": 11.155,
+     "end": 11.537
+    },
+    {
+     "text": "pausa",
+     "start": 11.537,
+     "end": 11.901
+    },
+    {
+     "text": "para",
+     "start": 11.901,
+     "end": 12.032
+    },
+    {
+     "text": "o",
+     "start": 12.032,
+     "end": 12.217
+    },
+    {
+     "text": "fim",
+     "start": 12.217,
+     "end": 12.314
+    },
+    {
+     "text": "de",
+     "start": 12.314,
+     "end": 12.408
+    },
+    {
+     "text": "semana.",
+     "start": 12.408,
+     "end": 12.837
+    }
+   ]
+  },
+  "s03-conta": {
+   "audio": "audio/s03-conta.wav",
+   "duration_s": 17.56,
+   "words": [
+    {
+     "text": "Vamos",
+     "start": 0.0,
+     "end": 0.258
+    },
+    {
+     "text": "à",
+     "start": 0.258,
+     "end": 0.384
+    },
+    {
+     "text": "conta.",
+     "start": 0.384,
+     "end": 0.677
+    },
+    {
+     "text": "Dia",
+     "start": 1.057,
+     "end": 1.293
+    },
+    {
+     "text": "um:",
+     "start": 1.293,
+     "end": 1.574
+    },
+    {
+     "text": "duas",
+     "start": 1.834,
+     "end": 2.142
+    },
+    {
+     "text": "vezes",
+     "start": 2.142,
+     "end": 2.484
+    },
+    {
+     "text": "a",
+     "start": 2.484,
+     "end": 2.603
+    },
+    {
+     "text": "inteligência",
+     "start": 2.603,
+     "end": 3.192
+    },
+    {
+     "text": "original.",
+     "start": 3.192,
+     "end": 3.66
+    },
+    {
+     "text": "Dia",
+     "start": 4.04,
+     "end": 4.292
+    },
+    {
+     "text": "dois:",
+     "start": 4.292,
+     "end": 4.644
+    },
+    {
+     "text": "quatro.",
+     "start": 4.904,
+     "end": 5.185
+    },
+    {
+     "text": "Dia",
+     "start": 5.565,
+     "end": 5.821
+    },
+    {
+     "text": "três:",
+     "start": 5.821,
+     "end": 6.121
+    },
+    {
+     "text": "oito.",
+     "start": 6.381,
+     "end": 6.716
+    },
+    {
+     "text": "Parece",
+     "start": 7.096,
+     "end": 7.549
+    },
+    {
+     "text": "pouco.",
+     "start": 7.549,
+     "end": 7.828
+    },
+    {
+     "text": "Mas",
+     "start": 8.208,
+     "end": 8.412
+    },
+    {
+     "text": "no",
+     "start": 8.412,
+     "end": 8.554
+    },
+    {
+     "text": "dia",
+     "start": 8.554,
+     "end": 8.767
+    },
+    {
+     "text": "sete",
+     "start": 8.767,
+     "end": 9.077
+    },
+    {
+     "text": "já",
+     "start": 9.077,
+     "end": 9.305
+    },
+    {
+     "text": "são",
+     "start": 9.305,
+     "end": 9.557
+    },
+    {
+     "text": "cento",
+     "start": 9.557,
+     "end": 9.871
+    },
+    {
+     "text": "e",
+     "start": 9.871,
+     "end": 9.955
+    },
+    {
+     "text": "vinte",
+     "start": 9.955,
+     "end": 10.093
+    },
+    {
+     "text": "e",
+     "start": 10.093,
+     "end": 10.265
+    },
+    {
+     "text": "oito",
+     "start": 10.265,
+     "end": 10.525
+    },
+    {
+     "text": "vezes.",
+     "start": 10.525,
+     "end": 11.059
+    },
+    {
+     "text": "No",
+     "start": 11.439,
+     "end": 11.662
+    },
+    {
+     "text": "dia",
+     "start": 11.662,
+     "end": 11.87
+    },
+    {
+     "text": "dez,",
+     "start": 11.87,
+     "end": 12.277
+    },
+    {
+     "text": "mil",
+     "start": 12.277,
+     "end": 12.588
+    },
+    {
+     "text": "e",
+     "start": 12.588,
+     "end": 12.772
+    },
+    {
+     "text": "vinte",
+     "start": 12.772,
+     "end": 13.039
+    },
+    {
+     "text": "e",
+     "start": 13.039,
+     "end": 13.194
+    },
+    {
+     "text": "quatro.",
+     "start": 13.194,
+     "end": 13.547
+    },
+    {
+     "text": "No",
+     "start": 13.927,
+     "end": 14.136
+    },
+    {
+     "text": "dia",
+     "start": 14.136,
+     "end": 14.369
+    },
+    {
+     "text": "vinte,",
+     "start": 14.369,
+     "end": 14.739
+    },
+    {
+     "text": "mais",
+     "start": 14.739,
+     "end": 15.124
+    },
+    {
+     "text": "de",
+     "start": 15.124,
+     "end": 15.184
+    },
+    {
+     "text": "um",
+     "start": 15.184,
+     "end": 15.284
+    },
+    {
+     "text": "milhão.",
+     "start": 15.284,
+     "end": 15.587
+    },
+    {
+     "text": "E",
+     "start": 15.967,
+     "end": 16.093
+    },
+    {
+     "text": "no",
+     "start": 16.093,
+     "end": 16.252
+    },
+    {
+     "text": "dia",
+     "start": 16.252,
+     "end": 16.442
+    },
+    {
+     "text": "trinta,",
+     "start": 16.442,
+     "end": 16.741
+    },
+    {
+     "text": "mais",
+     "start": 16.741,
+     "end": 17.128
+    },
+    {
+     "text": "de",
+     "start": 17.128,
+     "end": 17.195
+    },
+    {
+     "text": "um",
+     "start": 17.195,
+     "end": 17.347
+    },
+    {
+     "text": "bilhão.",
+     "start": 17.347,
+     "end": 17.56
+    }
+   ]
+  },
+  "s04-dia1": {
+   "audio": "audio/s04-dia1.wav",
+   "duration_s": 14.261,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0.0,
+     "end": 0.204
+    },
+    {
+     "text": "um.",
+     "start": 0.204,
+     "end": 0.435
+    },
+    {
+     "text": "Ninguém",
+     "start": 0.815,
+     "end": 1.283
+    },
+    {
+     "text": "percebe",
+     "start": 1.283,
+     "end": 1.662
+    },
+    {
+     "text": "nada,",
+     "start": 1.662,
+     "end": 2.051
+    },
+    {
+     "text": "mas",
+     "start": 2.051,
+     "end": 2.419
+    },
+    {
+     "text": "você",
+     "start": 2.419,
+     "end": 2.75
+    },
+    {
+     "text": "termina",
+     "start": 2.75,
+     "end": 2.967
+    },
+    {
+     "text": "as",
+     "start": 2.967,
+     "end": 3.273
+    },
+    {
+     "text": "palavras",
+     "start": 3.273,
+     "end": 3.741
+    },
+    {
+     "text": "cruzadas",
+     "start": 3.741,
+     "end": 4.202
+    },
+    {
+     "text": "antes",
+     "start": 4.202,
+     "end": 4.583
+    },
+    {
+     "text": "do",
+     "start": 4.583,
+     "end": 4.643
+    },
+    {
+     "text": "café",
+     "start": 4.643,
+     "end": 4.895
+    },
+    {
+     "text": "esfriar.",
+     "start": 4.895,
+     "end": 5.362
+    },
+    {
+     "text": "Entende,",
+     "start": 5.742,
+     "end": 6.24
+    },
+    {
+     "text": "pela",
+     "start": 6.24,
+     "end": 6.483
+    },
+    {
+     "text": "primeira",
+     "start": 6.483,
+     "end": 6.793
+    },
+    {
+     "text": "vez,",
+     "start": 6.793,
+     "end": 7.108
+    },
+    {
+     "text": "o",
+     "start": 7.108,
+     "end": 7.313
+    },
+    {
+     "text": "manual",
+     "start": 7.313,
+     "end": 7.8
+    },
+    {
+     "text": "da",
+     "start": 7.8,
+     "end": 7.947
+    },
+    {
+     "text": "air",
+     "start": 7.947,
+     "end": 8.117
+    },
+    {
+     "text": "fryer.",
+     "start": 8.117,
+     "end": 8.333
+    },
+    {
+     "text": "E",
+     "start": 8.713,
+     "end": 8.949
+    },
+    {
+     "text": "descobre",
+     "start": 8.949,
+     "end": 9.414
+    },
+    {
+     "text": "que,",
+     "start": 9.414,
+     "end": 9.656
+    },
+    {
+     "text": "naquela",
+     "start": 9.656,
+     "end": 10.187
+    },
+    {
+     "text": "discussão",
+     "start": 10.187,
+     "end": 10.693
+    },
+    {
+     "text": "de",
+     "start": 10.693,
+     "end": 10.753
+    },
+    {
+     "text": "ontem,",
+     "start": 10.753,
+     "end": 11.132
+    },
+    {
+     "text": "a",
+     "start": 11.132,
+     "end": 11.388
+    },
+    {
+     "text": "razão",
+     "start": 11.388,
+     "end": 11.599
+    },
+    {
+     "text": "não",
+     "start": 11.599,
+     "end": 11.791
+    },
+    {
+     "text": "estava",
+     "start": 11.791,
+     "end": 12.246
+    },
+    {
+     "text": "com",
+     "start": 12.246,
+     "end": 12.425
+    },
+    {
+     "text": "você.",
+     "start": 12.425,
+     "end": 12.738
+    },
+    {
+     "text": "Que",
+     "start": 13.118,
+     "end": 13.323
+    },
+    {
+     "text": "maravilha",
+     "start": 13.323,
+     "end": 13.75
+    },
+    {
+     "text": "de",
+     "start": 13.75,
+     "end": 13.821
+    },
+    {
+     "text": "começo.",
+     "start": 13.821,
+     "end": 14.261
+    }
+   ]
+  },
+  "s05-dia3": {
+   "audio": "audio/s05-dia3.wav",
+   "duration_s": 14.152,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0.0,
+     "end": 0.258
+    },
+    {
+     "text": "três:",
+     "start": 0.258,
+     "end": 0.562
+    },
+    {
+     "text": "oito",
+     "start": 0.822,
+     "end": 1.169
+    },
+    {
+     "text": "vezes.",
+     "start": 1.169,
+     "end": 1.599
+    },
+    {
+     "text": "No",
+     "start": 1.979,
+     "end": 2.184
+    },
+    {
+     "text": "trabalho,",
+     "start": 2.184,
+     "end": 2.579
+    },
+    {
+     "text": "a",
+     "start": 2.579,
+     "end": 2.888
+    },
+    {
+     "text": "planilha",
+     "start": 2.888,
+     "end": 3.278
+    },
+    {
+     "text": "que",
+     "start": 3.278,
+     "end": 3.345
+    },
+    {
+     "text": "levava",
+     "start": 3.345,
+     "end": 3.722
+    },
+    {
+     "text": "uma",
+     "start": 3.722,
+     "end": 3.95
+    },
+    {
+     "text": "tarde",
+     "start": 3.95,
+     "end": 4.194
+    },
+    {
+     "text": "fica",
+     "start": 4.194,
+     "end": 4.447
+    },
+    {
+     "text": "pronta",
+     "start": 4.447,
+     "end": 4.77
+    },
+    {
+     "text": "antes",
+     "start": 4.77,
+     "end": 5.139
+    },
+    {
+     "text": "da",
+     "start": 5.139,
+     "end": 5.199
+    },
+    {
+     "text": "primeira",
+     "start": 5.199,
+     "end": 5.586
+    },
+    {
+     "text": "reunião.",
+     "start": 5.586,
+     "end": 6.01
+    },
+    {
+     "text": "Livros",
+     "start": 6.39,
+     "end": 6.793
+    },
+    {
+     "text": "técnicos",
+     "start": 6.793,
+     "end": 7.312
+    },
+    {
+     "text": "descem",
+     "start": 7.312,
+     "end": 7.666
+    },
+    {
+     "text": "como",
+     "start": 7.666,
+     "end": 7.799
+    },
+    {
+     "text": "memes.",
+     "start": 7.799,
+     "end": 8.271
+    },
+    {
+     "text": "E",
+     "start": 8.651,
+     "end": 8.877
+    },
+    {
+     "text": "você",
+     "start": 8.877,
+     "end": 9.112
+    },
+    {
+     "text": "aprende",
+     "start": 9.112,
+     "end": 9.436
+    },
+    {
+     "text": "uma",
+     "start": 9.436,
+     "end": 9.582
+    },
+    {
+     "text": "lição",
+     "start": 9.582,
+     "end": 9.955
+    },
+    {
+     "text": "valiosa:",
+     "start": 9.955,
+     "end": 10.338
+    },
+    {
+     "text": "corrigir",
+     "start": 10.598,
+     "end": 11.006
+    },
+    {
+     "text": "o",
+     "start": 11.006,
+     "end": 11.111
+    },
+    {
+     "text": "chefe",
+     "start": 11.111,
+     "end": 11.417
+    },
+    {
+     "text": "na",
+     "start": 11.417,
+     "end": 11.589
+    },
+    {
+     "text": "frente",
+     "start": 11.589,
+     "end": 11.835
+    },
+    {
+     "text": "de",
+     "start": 11.835,
+     "end": 11.93
+    },
+    {
+     "text": "todo",
+     "start": 11.93,
+     "end": 12.197
+    },
+    {
+     "text": "mundo",
+     "start": 12.197,
+     "end": 12.457
+    },
+    {
+     "text": "não",
+     "start": 12.457,
+     "end": 12.602
+    },
+    {
+     "text": "é",
+     "start": 12.602,
+     "end": 12.731
+    },
+    {
+     "text": "inteligente.",
+     "start": 12.731,
+     "end": 13.319
+    },
+    {
+     "text": "Ainda.",
+     "start": 13.699,
+     "end": 14.152
+    }
+   ]
+  },
+  "s06-dia7": {
+   "audio": "audio/s06-dia7.wav",
+   "duration_s": 15.308,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0.0,
+     "end": 0.271
+    },
+    {
+     "text": "sete:",
+     "start": 0.271,
+     "end": 0.639
+    },
+    {
+     "text": "cento",
+     "start": 0.899,
+     "end": 1.235
+    },
+    {
+     "text": "e",
+     "start": 1.235,
+     "end": 1.375
+    },
+    {
+     "text": "vinte",
+     "start": 1.375,
+     "end": 1.545
+    },
+    {
+     "text": "e",
+     "start": 1.545,
+     "end": 1.707
+    },
+    {
+     "text": "oito",
+     "start": 1.707,
+     "end": 2.026
+    },
+    {
+     "text": "vezes.",
+     "start": 2.026,
+     "end": 2.476
+    },
+    {
+     "text": "Você",
+     "start": 2.856,
+     "end": 3.104
+    },
+    {
+     "text": "aprende",
+     "start": 3.104,
+     "end": 3.438
+    },
+    {
+     "text": "japonês",
+     "start": 3.438,
+     "end": 3.908
+    },
+    {
+     "text": "no",
+     "start": 3.908,
+     "end": 4.02
+    },
+    {
+     "text": "café",
+     "start": 4.02,
+     "end": 4.388
+    },
+    {
+     "text": "da",
+     "start": 4.388,
+     "end": 4.527
+    },
+    {
+     "text": "manhã",
+     "start": 4.527,
+     "end": 4.819
+    },
+    {
+     "text": "e",
+     "start": 4.819,
+     "end": 5.017
+    },
+    {
+     "text": "finlandês",
+     "start": 5.017,
+     "end": 5.643
+    },
+    {
+     "text": "no",
+     "start": 5.643,
+     "end": 5.734
+    },
+    {
+     "text": "almoço.",
+     "start": 5.734,
+     "end": 6.153
+    },
+    {
+     "text": "Mas",
+     "start": 6.533,
+     "end": 6.79
+    },
+    {
+     "text": "conversar",
+     "start": 6.79,
+     "end": 7.259
+    },
+    {
+     "text": "fica",
+     "start": 7.259,
+     "end": 7.514
+    },
+    {
+     "text": "estranho.",
+     "start": 7.514,
+     "end": 7.885
+    },
+    {
+     "text": "Você",
+     "start": 8.265,
+     "end": 8.613
+    },
+    {
+     "text": "já",
+     "start": 8.613,
+     "end": 8.817
+    },
+    {
+     "text": "sabe",
+     "start": 8.817,
+     "end": 9.068
+    },
+    {
+     "text": "o",
+     "start": 9.068,
+     "end": 9.279
+    },
+    {
+     "text": "fim",
+     "start": 9.279,
+     "end": 9.404
+    },
+    {
+     "text": "de",
+     "start": 9.404,
+     "end": 9.495
+    },
+    {
+     "text": "cada",
+     "start": 9.495,
+     "end": 9.85
+    },
+    {
+     "text": "frase",
+     "start": 9.85,
+     "end": 10.099
+    },
+    {
+     "text": "antes",
+     "start": 10.099,
+     "end": 10.516
+    },
+    {
+     "text": "da",
+     "start": 10.516,
+     "end": 10.576
+    },
+    {
+     "text": "pessoa",
+     "start": 10.576,
+     "end": 10.881
+    },
+    {
+     "text": "terminar.",
+     "start": 10.881,
+     "end": 11.254
+    },
+    {
+     "text": "Seu",
+     "start": 11.634,
+     "end": 11.835
+    },
+    {
+     "text": "amigo",
+     "start": 11.835,
+     "end": 12.211
+    },
+    {
+     "text": "conta",
+     "start": 12.211,
+     "end": 12.473
+    },
+    {
+     "text": "uma",
+     "start": 12.473,
+     "end": 12.635
+    },
+    {
+     "text": "piada,",
+     "start": 12.635,
+     "end": 13.123
+    },
+    {
+     "text": "e",
+     "start": 13.123,
+     "end": 13.375
+    },
+    {
+     "text": "você",
+     "start": 13.375,
+     "end": 13.683
+    },
+    {
+     "text": "precisa",
+     "start": 13.683,
+     "end": 13.996
+    },
+    {
+     "text": "lembrar",
+     "start": 13.996,
+     "end": 14.207
+    },
+    {
+     "text": "de",
+     "start": 14.207,
+     "end": 14.309
+    },
+    {
+     "text": "rir",
+     "start": 14.309,
+     "end": 14.614
+    },
+    {
+     "text": "na",
+     "start": 14.614,
+     "end": 14.781
+    },
+    {
+     "text": "hora",
+     "start": 14.781,
+     "end": 14.982
+    },
+    {
+     "text": "certa.",
+     "start": 14.982,
+     "end": 15.308
+    }
+   ]
+  },
+  "s07-dia10": {
+   "audio": "audio/s07-dia10.wav",
+   "duration_s": 14.682,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0.0,
+     "end": 0.238
+    },
+    {
+     "text": "dez:",
+     "start": 0.238,
+     "end": 0.555
+    },
+    {
+     "text": "mil",
+     "start": 0.815,
+     "end": 1.117
+    },
+    {
+     "text": "e",
+     "start": 1.117,
+     "end": 1.245
+    },
+    {
+     "text": "vinte",
+     "start": 1.245,
+     "end": 1.498
+    },
+    {
+     "text": "e",
+     "start": 1.498,
+     "end": 1.652
+    },
+    {
+     "text": "quatro",
+     "start": 1.652,
+     "end": 1.961
+    },
+    {
+     "text": "vezes.",
+     "start": 1.961,
+     "end": 2.397
+    },
+    {
+     "text": "Você",
+     "start": 2.777,
+     "end": 3.046
+    },
+    {
+     "text": "lê",
+     "start": 3.046,
+     "end": 3.209
+    },
+    {
+     "text": "uma",
+     "start": 3.209,
+     "end": 3.34
+    },
+    {
+     "text": "biblioteca",
+     "start": 3.34,
+     "end": 3.955
+    },
+    {
+     "text": "inteira",
+     "start": 3.955,
+     "end": 4.335
+    },
+    {
+     "text": "num",
+     "start": 4.335,
+     "end": 4.405
+    },
+    {
+     "text": "fim",
+     "start": 4.405,
+     "end": 4.599
+    },
+    {
+     "text": "de",
+     "start": 4.599,
+     "end": 4.686
+    },
+    {
+     "text": "semana.",
+     "start": 4.686,
+     "end": 5.133
+    },
+    {
+     "text": "Equações",
+     "start": 5.513,
+     "end": 6.085
+    },
+    {
+     "text": "que",
+     "start": 6.085,
+     "end": 6.234
+    },
+    {
+     "text": "pareciam",
+     "start": 6.234,
+     "end": 6.726
+    },
+    {
+     "text": "hieróglifos",
+     "start": 6.726,
+     "end": 7.317
+    },
+    {
+     "text": "agora",
+     "start": 7.317,
+     "end": 7.629
+    },
+    {
+     "text": "parecem",
+     "start": 7.629,
+     "end": 8.076
+    },
+    {
+     "text": "lista",
+     "start": 8.076,
+     "end": 8.371
+    },
+    {
+     "text": "de",
+     "start": 8.371,
+     "end": 8.435
+    },
+    {
+     "text": "supermercado.",
+     "start": 8.435,
+     "end": 9.193
+    },
+    {
+     "text": "Você",
+     "start": 9.573,
+     "end": 9.814
+    },
+    {
+     "text": "escreve",
+     "start": 9.814,
+     "end": 10.191
+    },
+    {
+     "text": "um",
+     "start": 10.191,
+     "end": 10.297
+    },
+    {
+     "text": "artigo",
+     "start": 10.297,
+     "end": 10.673
+    },
+    {
+     "text": "científico",
+     "start": 10.673,
+     "end": 11.432
+    },
+    {
+     "text": "e",
+     "start": 11.432,
+     "end": 11.591
+    },
+    {
+     "text": "precisa",
+     "start": 11.591,
+     "end": 12.081
+    },
+    {
+     "text": "simplificar",
+     "start": 12.081,
+     "end": 12.762
+    },
+    {
+     "text": "tudo,",
+     "start": 12.762,
+     "end": 13.177
+    },
+    {
+     "text": "porque",
+     "start": 13.177,
+     "end": 13.524
+    },
+    {
+     "text": "ninguém",
+     "start": 13.524,
+     "end": 13.908
+    },
+    {
+     "text": "consegue",
+     "start": 13.908,
+     "end": 14.228
+    },
+    {
+     "text": "revisar.",
+     "start": 14.228,
+     "end": 14.682
+    }
+   ]
+  },
+  "s08-casa": {
+   "audio": "audio/s08-casa.wav",
+   "duration_s": 14.103,
+   "words": [
+    {
+     "text": "Em",
+     "start": 0.0,
+     "end": 0.255
+    },
+    {
+     "text": "casa,",
+     "start": 0.255,
+     "end": 0.711
+    },
+    {
+     "text": "você",
+     "start": 0.711,
+     "end": 1.122
+    },
+    {
+     "text": "conserta",
+     "start": 1.122,
+     "end": 1.433
+    },
+    {
+     "text": "o",
+     "start": 1.433,
+     "end": 1.598
+    },
+    {
+     "text": "micro-ondas,",
+     "start": 1.598,
+     "end": 2.213
+    },
+    {
+     "text": "otimiza",
+     "start": 2.213,
+     "end": 2.845
+    },
+    {
+     "text": "a",
+     "start": 2.845,
+     "end": 2.951
+    },
+    {
+     "text": "rota",
+     "start": 2.951,
+     "end": 3.018
+    },
+    {
+     "text": "até",
+     "start": 3.018,
+     "end": 3.245
+    },
+    {
+     "text": "a",
+     "start": 3.245,
+     "end": 3.403
+    },
+    {
+     "text": "padaria",
+     "start": 3.403,
+     "end": 3.967
+    },
+    {
+     "text": "e",
+     "start": 3.967,
+     "end": 4.027
+    },
+    {
+     "text": "resolve",
+     "start": 4.027,
+     "end": 4.464
+    },
+    {
+     "text": "o",
+     "start": 4.464,
+     "end": 4.552
+    },
+    {
+     "text": "maior",
+     "start": 4.552,
+     "end": 4.775
+    },
+    {
+     "text": "mistério",
+     "start": 4.775,
+     "end": 5.242
+    },
+    {
+     "text": "doméstico:",
+     "start": 5.242,
+     "end": 5.752
+    },
+    {
+     "text": "dobrar",
+     "start": 6.012,
+     "end": 6.36
+    },
+    {
+     "text": "lençol",
+     "start": 6.36,
+     "end": 6.737
+    },
+    {
+     "text": "com",
+     "start": 6.737,
+     "end": 6.913
+    },
+    {
+     "text": "elástico.",
+     "start": 6.913,
+     "end": 7.388
+    },
+    {
+     "text": "Logo,",
+     "start": 7.768,
+     "end": 8.157
+    },
+    {
+     "text": "a",
+     "start": 8.157,
+     "end": 8.351
+    },
+    {
+     "text": "família",
+     "start": 8.351,
+     "end": 8.721
+    },
+    {
+     "text": "inteira",
+     "start": 8.721,
+     "end": 9.061
+    },
+    {
+     "text": "te",
+     "start": 9.061,
+     "end": 9.167
+    },
+    {
+     "text": "liga",
+     "start": 9.167,
+     "end": 9.44
+    },
+    {
+     "text": "pra",
+     "start": 9.44,
+     "end": 9.575
+    },
+    {
+     "text": "tudo.",
+     "start": 9.575,
+     "end": 9.895
+    },
+    {
+     "text": "Você",
+     "start": 10.275,
+     "end": 10.573
+    },
+    {
+     "text": "virou",
+     "start": 10.573,
+     "end": 10.808
+    },
+    {
+     "text": "o",
+     "start": 10.808,
+     "end": 10.868
+    },
+    {
+     "text": "suporte",
+     "start": 10.868,
+     "end": 11.381
+    },
+    {
+     "text": "técnico",
+     "start": 11.381,
+     "end": 11.715
+    },
+    {
+     "text": "da",
+     "start": 11.715,
+     "end": 11.897
+    },
+    {
+     "text": "humanidade.",
+     "start": 11.897,
+     "end": 12.455
+    },
+    {
+     "text": "Começando",
+     "start": 12.835,
+     "end": 13.445
+    },
+    {
+     "text": "pela",
+     "start": 13.445,
+     "end": 13.651
+    },
+    {
+     "text": "sua",
+     "start": 13.651,
+     "end": 13.797
+    },
+    {
+     "text": "tia.",
+     "start": 13.797,
+     "end": 14.103
+    }
+   ]
+  },
+  "s09-dia20": {
+   "audio": "audio/s09-dia20.wav",
+   "duration_s": 14.438,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0.0,
+     "end": 0.231
+    },
+    {
+     "text": "vinte:",
+     "start": 0.231,
+     "end": 0.546
+    },
+    {
+     "text": "mais",
+     "start": 0.806,
+     "end": 1.097
+    },
+    {
+     "text": "de",
+     "start": 1.097,
+     "end": 1.234
+    },
+    {
+     "text": "um",
+     "start": 1.234,
+     "end": 1.294
+    },
+    {
+     "text": "milhão",
+     "start": 1.294,
+     "end": 1.469
+    },
+    {
+     "text": "de",
+     "start": 1.469,
+     "end": 1.613
+    },
+    {
+     "text": "vezes.",
+     "start": 1.613,
+     "end": 2.075
+    },
+    {
+     "text": "Aqui,",
+     "start": 2.455,
+     "end": 2.996
+    },
+    {
+     "text": "a",
+     "start": 2.996,
+     "end": 3.197
+    },
+    {
+     "text": "comparação",
+     "start": 3.197,
+     "end": 3.751
+    },
+    {
+     "text": "humana",
+     "start": 3.751,
+     "end": 4.066
+    },
+    {
+     "text": "quebra.",
+     "start": 4.066,
+     "end": 4.43
+    },
+    {
+     "text": "Não",
+     "start": 4.81,
+     "end": 5.043
+    },
+    {
+     "text": "é",
+     "start": 5.043,
+     "end": 5.118
+    },
+    {
+     "text": "como",
+     "start": 5.118,
+     "end": 5.318
+    },
+    {
+     "text": "ser",
+     "start": 5.318,
+     "end": 5.475
+    },
+    {
+     "text": "um",
+     "start": 5.475,
+     "end": 5.599
+    },
+    {
+     "text": "gênio.",
+     "start": 5.599,
+     "end": 5.996
+    },
+    {
+     "text": "É",
+     "start": 6.376,
+     "end": 6.618
+    },
+    {
+     "text": "como",
+     "start": 6.618,
+     "end": 6.835
+    },
+    {
+     "text": "ser",
+     "start": 6.835,
+     "end": 6.962
+    },
+    {
+     "text": "uma",
+     "start": 6.962,
+     "end": 7.098
+    },
+    {
+     "text": "cidade",
+     "start": 7.098,
+     "end": 7.53
+    },
+    {
+     "text": "inteira",
+     "start": 7.53,
+     "end": 7.844
+    },
+    {
+     "text": "de",
+     "start": 7.844,
+     "end": 7.945
+    },
+    {
+     "text": "gênios",
+     "start": 7.945,
+     "end": 8.379
+    },
+    {
+     "text": "pensando",
+     "start": 8.379,
+     "end": 8.806
+    },
+    {
+     "text": "ao",
+     "start": 8.806,
+     "end": 8.9
+    },
+    {
+     "text": "mesmo",
+     "start": 8.9,
+     "end": 9.247
+    },
+    {
+     "text": "tempo,",
+     "start": 9.247,
+     "end": 9.501
+    },
+    {
+     "text": "sem",
+     "start": 9.501,
+     "end": 9.858
+    },
+    {
+     "text": "nenhuma",
+     "start": 9.858,
+     "end": 10.022
+    },
+    {
+     "text": "reunião.",
+     "start": 10.022,
+     "end": 10.365
+    },
+    {
+     "text": "Você",
+     "start": 10.745,
+     "end": 11.018
+    },
+    {
+     "text": "rascunha",
+     "start": 11.018,
+     "end": 11.578
+    },
+    {
+     "text": "teorias",
+     "start": 11.578,
+     "end": 12.015
+    },
+    {
+     "text": "novas",
+     "start": 12.015,
+     "end": 12.242
+    },
+    {
+     "text": "no",
+     "start": 12.242,
+     "end": 12.356
+    },
+    {
+     "text": "banho,",
+     "start": 12.356,
+     "end": 12.706
+    },
+    {
+     "text": "enquanto",
+     "start": 12.706,
+     "end": 13.105
+    },
+    {
+     "text": "o",
+     "start": 13.105,
+     "end": 13.208
+    },
+    {
+     "text": "xampu",
+     "start": 13.208,
+     "end": 13.45
+    },
+    {
+     "text": "ainda",
+     "start": 13.45,
+     "end": 13.79
+    },
+    {
+     "text": "faz",
+     "start": 13.79,
+     "end": 14.053
+    },
+    {
+     "text": "espuma.",
+     "start": 14.053,
+     "end": 14.438
+    }
+   ]
+  },
+  "s10-explicar": {
+   "audio": "audio/s10-explicar.wav",
+   "duration_s": 14.228,
+   "words": [
+    {
+     "text": "O",
+     "start": 0.0,
+     "end": 0.206
+    },
+    {
+     "text": "difícil",
+     "start": 0.206,
+     "end": 0.571
+    },
+    {
+     "text": "agora",
+     "start": 0.571,
+     "end": 0.807
+    },
+    {
+     "text": "é",
+     "start": 0.807,
+     "end": 0.876
+    },
+    {
+     "text": "explicar.",
+     "start": 0.876,
+     "end": 1.385
+    },
+    {
+     "text": "Você",
+     "start": 1.765,
+     "end": 2.073
+    },
+    {
+     "text": "tenta",
+     "start": 2.073,
+     "end": 2.396
+    },
+    {
+     "text": "contar",
+     "start": 2.396,
+     "end": 2.583
+    },
+    {
+     "text": "uma",
+     "start": 2.583,
+     "end": 2.791
+    },
+    {
+     "text": "ideia",
+     "start": 2.791,
+     "end": 3.119
+    },
+    {
+     "text": "pra",
+     "start": 3.119,
+     "end": 3.214
+    },
+    {
+     "text": "alguém",
+     "start": 3.214,
+     "end": 3.616
+    },
+    {
+     "text": "e",
+     "start": 3.616,
+     "end": 3.742
+    },
+    {
+     "text": "percebe",
+     "start": 3.742,
+     "end": 4.235
+    },
+    {
+     "text": "que",
+     "start": 4.235,
+     "end": 4.362
+    },
+    {
+     "text": "precisaria",
+     "start": 4.362,
+     "end": 4.843
+    },
+    {
+     "text": "de",
+     "start": 4.843,
+     "end": 5.007
+    },
+    {
+     "text": "meses",
+     "start": 5.007,
+     "end": 5.391
+    },
+    {
+     "text": "só",
+     "start": 5.391,
+     "end": 5.498
+    },
+    {
+     "text": "pra",
+     "start": 5.498,
+     "end": 5.619
+    },
+    {
+     "text": "ensinar",
+     "start": 5.619,
+     "end": 6.019
+    },
+    {
+     "text": "o",
+     "start": 6.019,
+     "end": 6.182
+    },
+    {
+     "text": "vocabulário.",
+     "start": 6.182,
+     "end": 6.752
+    },
+    {
+     "text": "Então",
+     "start": 7.132,
+     "end": 7.469
+    },
+    {
+     "text": "você",
+     "start": 7.469,
+     "end": 7.734
+    },
+    {
+     "text": "simplifica.",
+     "start": 7.734,
+     "end": 8.382
+    },
+    {
+     "text": "E",
+     "start": 8.762,
+     "end": 8.924
+    },
+    {
+     "text": "simplifica",
+     "start": 8.924,
+     "end": 9.475
+    },
+    {
+     "text": "de",
+     "start": 9.475,
+     "end": 9.634
+    },
+    {
+     "text": "novo.",
+     "start": 9.634,
+     "end": 9.932
+    },
+    {
+     "text": "Até",
+     "start": 10.312,
+     "end": 10.566
+    },
+    {
+     "text": "sobrar",
+     "start": 10.566,
+     "end": 10.907
+    },
+    {
+     "text": "uma",
+     "start": 10.907,
+     "end": 11.144
+    },
+    {
+     "text": "frase.",
+     "start": 11.144,
+     "end": 11.475
+    },
+    {
+     "text": "E",
+     "start": 11.855,
+     "end": 12.018
+    },
+    {
+     "text": "a",
+     "start": 12.018,
+     "end": 12.126
+    },
+    {
+     "text": "resposta",
+     "start": 12.126,
+     "end": 12.568
+    },
+    {
+     "text": "vem:",
+     "start": 12.568,
+     "end": 12.754
+    },
+    {
+     "text": "legal,",
+     "start": 13.014,
+     "end": 13.484
+    },
+    {
+     "text": "quer",
+     "start": 13.484,
+     "end": 13.827
+    },
+    {
+     "text": "pizza?",
+     "start": 13.827,
+     "end": 14.228
+    }
+   ]
+  },
+  "s11-dia30": {
+   "audio": "audio/s11-dia30.wav",
+   "duration_s": 14.22,
+   "words": [
+    {
+     "text": "Dia",
+     "start": 0.0,
+     "end": 0.247
+    },
+    {
+     "text": "trinta:",
+     "start": 0.247,
+     "end": 0.548
+    },
+    {
+     "text": "mais",
+     "start": 0.808,
+     "end": 1.087
+    },
+    {
+     "text": "de",
+     "start": 1.087,
+     "end": 1.222
+    },
+    {
+     "text": "um",
+     "start": 1.222,
+     "end": 1.282
+    },
+    {
+     "text": "bilhão",
+     "start": 1.282,
+     "end": 1.471
+    },
+    {
+     "text": "de",
+     "start": 1.471,
+     "end": 1.645
+    },
+    {
+     "text": "vezes.",
+     "start": 1.645,
+     "end": 2.079
+    },
+    {
+     "text": "Mais",
+     "start": 2.459,
+     "end": 2.787
+    },
+    {
+     "text": "exatamente,",
+     "start": 2.787,
+     "end": 3.441
+    },
+    {
+     "text": "um",
+     "start": 3.441,
+     "end": 3.7
+    },
+    {
+     "text": "bilhão",
+     "start": 3.7,
+     "end": 3.938
+    },
+    {
+     "text": "e",
+     "start": 3.938,
+     "end": 4.052
+    },
+    {
+     "text": "setenta",
+     "start": 4.052,
+     "end": 4.43
+    },
+    {
+     "text": "e",
+     "start": 4.43,
+     "end": 4.563
+    },
+    {
+     "text": "três",
+     "start": 4.563,
+     "end": 4.763
+    },
+    {
+     "text": "milhões.",
+     "start": 4.763,
+     "end": 5.221
+    },
+    {
+     "text": "Só",
+     "start": 5.601,
+     "end": 5.849
+    },
+    {
+     "text": "nessa",
+     "start": 5.849,
+     "end": 6.124
+    },
+    {
+     "text": "manhã,",
+     "start": 6.124,
+     "end": 6.609
+    },
+    {
+     "text": "você",
+     "start": 6.609,
+     "end": 7.043
+    },
+    {
+     "text": "ganha",
+     "start": 7.043,
+     "end": 7.238
+    },
+    {
+     "text": "mais",
+     "start": 7.238,
+     "end": 7.588
+    },
+    {
+     "text": "do",
+     "start": 7.588,
+     "end": 7.683
+    },
+    {
+     "text": "que",
+     "start": 7.683,
+     "end": 7.801
+    },
+    {
+     "text": "em",
+     "start": 7.801,
+     "end": 7.975
+    },
+    {
+     "text": "todos",
+     "start": 7.975,
+     "end": 8.287
+    },
+    {
+     "text": "os",
+     "start": 8.287,
+     "end": 8.491
+    },
+    {
+     "text": "vinte",
+     "start": 8.491,
+     "end": 8.645
+    },
+    {
+     "text": "e",
+     "start": 8.645,
+     "end": 8.78
+    },
+    {
+     "text": "nove",
+     "start": 8.78,
+     "end": 9.151
+    },
+    {
+     "text": "dias",
+     "start": 9.151,
+     "end": 9.437
+    },
+    {
+     "text": "anteriores",
+     "start": 9.437,
+     "end": 10.014
+    },
+    {
+     "text": "somados.",
+     "start": 10.014,
+     "end": 10.605
+    },
+    {
+     "text": "A",
+     "start": 10.985,
+     "end": 11.231
+    },
+    {
+     "text": "curva,",
+     "start": 11.231,
+     "end": 11.56
+    },
+    {
+     "text": "que",
+     "start": 11.56,
+     "end": 11.802
+    },
+    {
+     "text": "parecia",
+     "start": 11.802,
+     "end": 12.211
+    },
+    {
+     "text": "deitada,",
+     "start": 12.211,
+     "end": 12.812
+    },
+    {
+     "text": "agora",
+     "start": 12.812,
+     "end": 13.232
+    },
+    {
+     "text": "sobe",
+     "start": 13.232,
+     "end": 13.485
+    },
+    {
+     "text": "como",
+     "start": 13.485,
+     "end": 13.659
+    },
+    {
+     "text": "uma",
+     "start": 13.659,
+     "end": 13.856
+    },
+    {
+     "text": "parede.",
+     "start": 13.856,
+     "end": 14.22
+    }
+   ]
+  },
+  "s12-virada": {
+   "audio": "audio/s12-virada.wav",
+   "duration_s": 14.558,
+   "words": [
+    {
+     "text": "Mas",
+     "start": 0.0,
+     "end": 0.162
+    },
+    {
+     "text": "aqui",
+     "start": 0.162,
+     "end": 0.458
+    },
+    {
+     "text": "vem",
+     "start": 0.458,
+     "end": 0.583
+    },
+    {
+     "text": "a",
+     "start": 0.583,
+     "end": 0.742
+    },
+    {
+     "text": "virada.",
+     "start": 0.742,
+     "end": 1.008
+    },
+    {
+     "text": "Inteligência",
+     "start": 1.388,
+     "end": 2.023
+    },
+    {
+     "text": "não",
+     "start": 2.023,
+     "end": 2.168
+    },
+    {
+     "text": "cria",
+     "start": 2.168,
+     "end": 2.453
+    },
+    {
+     "text": "dados",
+     "start": 2.453,
+     "end": 2.875
+    },
+    {
+     "text": "do",
+     "start": 2.875,
+     "end": 2.935
+    },
+    {
+     "text": "nada.",
+     "start": 2.935,
+     "end": 3.242
+    },
+    {
+     "text": "Você",
+     "start": 3.622,
+     "end": 3.956
+    },
+    {
+     "text": "pode",
+     "start": 3.956,
+     "end": 4.207
+    },
+    {
+     "text": "pensar",
+     "start": 4.207,
+     "end": 4.558
+    },
+    {
+     "text": "muito",
+     "start": 4.558,
+     "end": 4.831
+    },
+    {
+     "text": "rápido",
+     "start": 4.831,
+     "end": 5.241
+    },
+    {
+     "text": "sobre",
+     "start": 5.241,
+     "end": 5.602
+    },
+    {
+     "text": "uma",
+     "start": 5.602,
+     "end": 5.784
+    },
+    {
+     "text": "doença,",
+     "start": 5.784,
+     "end": 6.306
+    },
+    {
+     "text": "mas",
+     "start": 6.306,
+     "end": 6.589
+    },
+    {
+     "text": "ainda",
+     "start": 6.589,
+     "end": 6.98
+    },
+    {
+     "text": "precisa",
+     "start": 6.98,
+     "end": 7.369
+    },
+    {
+     "text": "de",
+     "start": 7.369,
+     "end": 7.466
+    },
+    {
+     "text": "exames,",
+     "start": 7.466,
+     "end": 7.96
+    },
+    {
+     "text": "testes",
+     "start": 7.96,
+     "end": 8.507
+    },
+    {
+     "text": "e",
+     "start": 8.507,
+     "end": 8.616
+    },
+    {
+     "text": "tempo.",
+     "start": 8.616,
+     "end": 8.892
+    },
+    {
+     "text": "Experimentos",
+     "start": 9.272,
+     "end": 9.939
+    },
+    {
+     "text": "levam",
+     "start": 9.939,
+     "end": 10.137
+    },
+    {
+     "text": "o",
+     "start": 10.137,
+     "end": 10.223
+    },
+    {
+     "text": "tempo",
+     "start": 10.223,
+     "end": 10.483
+    },
+    {
+     "text": "que",
+     "start": 10.483,
+     "end": 10.603
+    },
+    {
+     "text": "levam.",
+     "start": 10.603,
+     "end": 10.914
+    },
+    {
+     "text": "E",
+     "start": 11.294,
+     "end": 11.464
+    },
+    {
+     "text": "nenhuma",
+     "start": 11.464,
+     "end": 11.769
+    },
+    {
+     "text": "planta",
+     "start": 11.769,
+     "end": 12.075
+    },
+    {
+     "text": "cresce",
+     "start": 12.075,
+     "end": 12.441
+    },
+    {
+     "text": "mais",
+     "start": 12.441,
+     "end": 12.772
+    },
+    {
+     "text": "rápido",
+     "start": 12.772,
+     "end": 13.115
+    },
+    {
+     "text": "só",
+     "start": 13.115,
+     "end": 13.383
+    },
+    {
+     "text": "porque",
+     "start": 13.383,
+     "end": 13.658
+    },
+    {
+     "text": "você",
+     "start": 13.658,
+     "end": 13.958
+    },
+    {
+     "text": "é",
+     "start": 13.958,
+     "end": 14.093
+    },
+    {
+     "text": "genial.",
+     "start": 14.093,
+     "end": 14.558
+    }
+   ]
+  },
+  "s13-solidao": {
+   "audio": "audio/s13-solidao.wav",
+   "duration_s": 11.55,
+   "words": [
+    {
+     "text": "Seu",
+     "start": 0.0,
+     "end": 0.25
+    },
+    {
+     "text": "corpo",
+     "start": 0.25,
+     "end": 0.463
+    },
+    {
+     "text": "continua",
+     "start": 0.463,
+     "end": 0.906
+    },
+    {
+     "text": "o",
+     "start": 0.906,
+     "end": 0.976
+    },
+    {
+     "text": "mesmo.",
+     "start": 0.976,
+     "end": 1.314
+    },
+    {
+     "text": "Você",
+     "start": 1.694,
+     "end": 1.945
+    },
+    {
+     "text": "ainda",
+     "start": 1.945,
+     "end": 2.429
+    },
+    {
+     "text": "precisa",
+     "start": 2.429,
+     "end": 2.861
+    },
+    {
+     "text": "dormir,",
+     "start": 2.861,
+     "end": 3.083
+    },
+    {
+     "text": "comer",
+     "start": 3.083,
+     "end": 3.512
+    },
+    {
+     "text": "e",
+     "start": 3.512,
+     "end": 3.661
+    },
+    {
+     "text": "esperar",
+     "start": 3.661,
+     "end": 4.025
+    },
+    {
+     "text": "a",
+     "start": 4.025,
+     "end": 4.25
+    },
+    {
+     "text": "água",
+     "start": 4.25,
+     "end": 4.547
+    },
+    {
+     "text": "ferver.",
+     "start": 4.547,
+     "end": 4.81
+    },
+    {
+     "text": "E",
+     "start": 5.19,
+     "end": 5.394
+    },
+    {
+     "text": "tem",
+     "start": 5.394,
+     "end": 5.556
+    },
+    {
+     "text": "a",
+     "start": 5.556,
+     "end": 5.616
+    },
+    {
+     "text": "parte",
+     "start": 5.616,
+     "end": 5.83
+    },
+    {
+     "text": "mais",
+     "start": 5.83,
+     "end": 6.15
+    },
+    {
+     "text": "difícil:",
+     "start": 6.15,
+     "end": 6.548
+    },
+    {
+     "text": "ninguém",
+     "start": 6.808,
+     "end": 7.181
+    },
+    {
+     "text": "te",
+     "start": 7.181,
+     "end": 7.322
+    },
+    {
+     "text": "acompanha.",
+     "start": 7.322,
+     "end": 7.812
+    },
+    {
+     "text": "A",
+     "start": 8.192,
+     "end": 8.382
+    },
+    {
+     "text": "cada",
+     "start": 8.382,
+     "end": 8.638
+    },
+    {
+     "text": "manhã,",
+     "start": 8.638,
+     "end": 8.979
+    },
+    {
+     "text": "você",
+     "start": 8.979,
+     "end": 9.369
+    },
+    {
+     "text": "acorda",
+     "start": 9.369,
+     "end": 9.694
+    },
+    {
+     "text": "um",
+     "start": 9.694,
+     "end": 9.83
+    },
+    {
+     "text": "pouco",
+     "start": 9.83,
+     "end": 9.969
+    },
+    {
+     "text": "mais",
+     "start": 9.969,
+     "end": 10.334
+    },
+    {
+     "text": "longe",
+     "start": 10.334,
+     "end": 10.622
+    },
+    {
+     "text": "das",
+     "start": 10.622,
+     "end": 10.829
+    },
+    {
+     "text": "pessoas",
+     "start": 10.829,
+     "end": 11.2
+    },
+    {
+     "text": "que",
+     "start": 11.2,
+     "end": 11.288
+    },
+    {
+     "text": "ama.",
+     "start": 11.288,
+     "end": 11.55
+    }
+   ]
+  },
+  "s14-sabedoria": {
+   "audio": "audio/s14-sabedoria.wav",
+   "duration_s": 10.894,
+   "words": [
+    {
+     "text": "Porque",
+     "start": 0.0,
+     "end": 0.372
+    },
+    {
+     "text": "inteligência",
+     "start": 0.372,
+     "end": 0.992
+    },
+    {
+     "text": "é",
+     "start": 0.992,
+     "end": 1.129
+    },
+    {
+     "text": "saber",
+     "start": 1.129,
+     "end": 1.357
+    },
+    {
+     "text": "resolver",
+     "start": 1.357,
+     "end": 1.768
+    },
+    {
+     "text": "problemas.",
+     "start": 1.768,
+     "end": 2.34
+    },
+    {
+     "text": "Sabedoria",
+     "start": 2.72,
+     "end": 3.422
+    },
+    {
+     "text": "é",
+     "start": 3.422,
+     "end": 3.577
+    },
+    {
+     "text": "saber",
+     "start": 3.577,
+     "end": 4.005
+    },
+    {
+     "text": "quais",
+     "start": 4.005,
+     "end": 4.35
+    },
+    {
+     "text": "problemas",
+     "start": 4.35,
+     "end": 4.729
+    },
+    {
+     "text": "valem",
+     "start": 4.729,
+     "end": 4.913
+    },
+    {
+     "text": "a",
+     "start": 4.913,
+     "end": 5.078
+    },
+    {
+     "text": "pena.",
+     "start": 5.078,
+     "end": 5.346
+    },
+    {
+     "text": "Uma",
+     "start": 5.726,
+     "end": 6.025
+    },
+    {
+     "text": "pode",
+     "start": 6.025,
+     "end": 6.248
+    },
+    {
+     "text": "dobrar",
+     "start": 6.248,
+     "end": 6.516
+    },
+    {
+     "text": "todo",
+     "start": 6.516,
+     "end": 6.772
+    },
+    {
+     "text": "dia.",
+     "start": 6.772,
+     "end": 7.023
+    },
+    {
+     "text": "A",
+     "start": 7.403,
+     "end": 7.594
+    },
+    {
+     "text": "outra",
+     "start": 7.594,
+     "end": 7.819
+    },
+    {
+     "text": "cresce",
+     "start": 7.819,
+     "end": 8.162
+    },
+    {
+     "text": "devagar,",
+     "start": 8.162,
+     "end": 8.701
+    },
+    {
+     "text": "com",
+     "start": 8.701,
+     "end": 8.989
+    },
+    {
+     "text": "erros,",
+     "start": 8.989,
+     "end": 9.493
+    },
+    {
+     "text": "conversas",
+     "start": 9.493,
+     "end": 10.067
+    },
+    {
+     "text": "e",
+     "start": 10.067,
+     "end": 10.154
+    },
+    {
+     "text": "gente",
+     "start": 10.154,
+     "end": 10.525
+    },
+    {
+     "text": "por",
+     "start": 10.525,
+     "end": 10.619
+    },
+    {
+     "text": "perto.",
+     "start": 10.619,
+     "end": 10.894
+    }
+   ]
+  },
+  "s15-fechamento": {
+   "audio": "audio/s15-fechamento.wav",
+   "duration_s": 9.867,
+   "words": [
+    {
+     "text": "No",
+     "start": 0.0,
+     "end": 0.195
+    },
+    {
+     "text": "fim,",
+     "start": 0.195,
+     "end": 0.466
+    },
+    {
+     "text": "a",
+     "start": 0.466,
+     "end": 0.669
+    },
+    {
+     "text": "mente",
+     "start": 0.669,
+     "end": 0.947
+    },
+    {
+     "text": "mais",
+     "start": 0.947,
+     "end": 1.292
+    },
+    {
+     "text": "poderosa",
+     "start": 1.292,
+     "end": 1.688
+    },
+    {
+     "text": "do",
+     "start": 1.688,
+     "end": 1.823
+    },
+    {
+     "text": "planeta",
+     "start": 1.823,
+     "end": 2.234
+    },
+    {
+     "text": "ainda",
+     "start": 2.234,
+     "end": 2.546
+    },
+    {
+     "text": "ia",
+     "start": 2.546,
+     "end": 2.722
+    },
+    {
+     "text": "querer",
+     "start": 2.722,
+     "end": 2.986
+    },
+    {
+     "text": "a",
+     "start": 2.986,
+     "end": 3.046
+    },
+    {
+     "text": "mesma",
+     "start": 3.046,
+     "end": 3.377
+    },
+    {
+     "text": "coisa",
+     "start": 3.377,
+     "end": 3.635
+    },
+    {
+     "text": "que",
+     "start": 3.635,
+     "end": 3.793
+    },
+    {
+     "text": "você",
+     "start": 3.793,
+     "end": 4.045
+    },
+    {
+     "text": "quer",
+     "start": 4.045,
+     "end": 4.22
+    },
+    {
+     "text": "hoje:",
+     "start": 4.22,
+     "end": 4.528
+    },
+    {
+     "text": "alguém",
+     "start": 4.788,
+     "end": 5.128
+    },
+    {
+     "text": "do",
+     "start": 5.128,
+     "end": 5.211
+    },
+    {
+     "text": "outro",
+     "start": 5.211,
+     "end": 5.509
+    },
+    {
+     "text": "lado",
+     "start": 5.509,
+     "end": 5.742
+    },
+    {
+     "text": "da",
+     "start": 5.742,
+     "end": 5.863
+    },
+    {
+     "text": "mesa,",
+     "start": 5.863,
+     "end": 6.221
+    },
+    {
+     "text": "que",
+     "start": 6.221,
+     "end": 6.422
+    },
+    {
+     "text": "entenda",
+     "start": 6.422,
+     "end": 6.733
+    },
+    {
+     "text": "a",
+     "start": 6.733,
+     "end": 6.863
+    },
+    {
+     "text": "piada.",
+     "start": 6.863,
+     "end": 7.211
+    },
+    {
+     "text": "Mesmo",
+     "start": 7.591,
+     "end": 7.94
+    },
+    {
+     "text": "que",
+     "start": 7.94,
+     "end": 8.094
+    },
+    {
+     "text": "você",
+     "start": 8.094,
+     "end": 8.352
+    },
+    {
+     "text": "tenha",
+     "start": 8.352,
+     "end": 8.551
+    },
+    {
+     "text": "que",
+     "start": 8.551,
+     "end": 8.727
+    },
+    {
+     "text": "explicar",
+     "start": 8.727,
+     "end": 9.191
+    },
+    {
+     "text": "duas",
+     "start": 9.191,
+     "end": 9.517
+    },
+    {
+     "text": "vezes.",
+     "start": 9.517,
+     "end": 9.867
+    }
+   ]
+  },
+  "s11b-pronto": {
+   "audio": "audio/s11b-pronto.wav",
+   "duration_s": 8.7,
+   "words": [
+    {
+     "text": "Você",
+     "start": 0.0,
+     "end": 0.267
+    },
+    {
+     "text": "acorda",
+     "start": 0.267,
+     "end": 0.665
+    },
+    {
+     "text": "no",
+     "start": 0.665,
+     "end": 0.778
+    },
+    {
+     "text": "dia",
+     "start": 0.778,
+     "end": 1.001
+    },
+    {
+     "text": "trinta,",
+     "start": 1.001,
+     "end": 1.396
+    },
+    {
+     "text": "olha",
+     "start": 1.396,
+     "end": 1.758
+    },
+    {
+     "text": "pela",
+     "start": 1.758,
+     "end": 2.006
+    },
+    {
+     "text": "janela",
+     "start": 2.006,
+     "end": 2.323
+    },
+    {
+     "text": "e",
+     "start": 2.323,
+     "end": 2.486
+    },
+    {
+     "text": "pensa:",
+     "start": 2.486,
+     "end": 2.875
+    },
+    {
+     "text": "pronto,",
+     "start": 3.135,
+     "end": 3.477
+    },
+    {
+     "text": "agora",
+     "start": 3.477,
+     "end": 3.936
+    },
+    {
+     "text": "eu",
+     "start": 3.936,
+     "end": 4.076
+    },
+    {
+     "text": "resolvo",
+     "start": 4.076,
+     "end": 4.508
+    },
+    {
+     "text": "tudo.",
+     "start": 4.508,
+     "end": 4.789
+    },
+    {
+     "text": "A",
+     "start": 5.169,
+     "end": 5.419
+    },
+    {
+     "text": "fome,",
+     "start": 5.419,
+     "end": 5.764
+    },
+    {
+     "text": "o",
+     "start": 5.764,
+     "end": 5.959
+    },
+    {
+     "text": "clima,",
+     "start": 5.959,
+     "end": 6.315
+    },
+    {
+     "text": "a",
+     "start": 6.315,
+     "end": 6.563
+    },
+    {
+     "text": "fila",
+     "start": 6.563,
+     "end": 6.883
+    },
+    {
+     "text": "do",
+     "start": 6.883,
+     "end": 7.003
+    },
+    {
+     "text": "banco.",
+     "start": 7.003,
+     "end": 7.277
+    },
+    {
+     "text": "Fácil.",
+     "start": 7.657,
+     "end": 8.04
+    },
+    {
+     "text": "Né?",
+     "start": 8.42,
+     "end": 8.7
+    }
+   ]
+  }
+ }
+}

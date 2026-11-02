@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "title": "O dobro de inteligência a cada dia",
+    "lang": "pt-BR",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "target_seconds": 240,
+    "anchor_rule": "Toda marcação usa at_word (palavra normalizada: minúsculas, sem pontuação) e nth (ocorrência, padrão 1) dentro da narração da própria cena. Nunca segundos.",
+    "voice": { "provider": "elevenlabs", "model_id": "eleven_multilingual_v2", "voice_id_env": "ELEVENLABS_VOICE_ID" }
+  },
+  "cast": {
+    "ana": { "role": "protagonista (você)", "asset": "Character/ANA" },
+    "beto": { "role": "amigo", "asset": "Character/BETO" },
+    "tia": { "role": "tia", "asset": "Character/TIA" }
+  },
+  "scenes": [
+    {
+      "id": "s01-gancho",
+      "type": "edit",
+      "act": "Gancho",
+      "narration": "O que aconteceria se você ficasse com o dobro de inteligência a cada dia que acordasse? Spoiler: fica esquisito muito rápido.",
+      "background": "stars",
+      "layers": [
+        { "id": "pergunta", "kind": "sync-words", "at_word": "o", "until_word": "spoiler", "slot": "center", "props": { "from_word": "o", "to_word": "acordasse", "highlight": ["dobro", "inteligência"], "size": 92 } },
+        { "id": "cerebro", "kind": "icon", "at_word": "inteligência", "until_word": "spoiler", "slot": "top", "enter": "pop", "props": { "icon": "brain", "size": 170, "pulse": true } },
+        { "id": "spoiler", "kind": "stamp", "at_word": "spoiler", "slot": "center-up", "enter": "slam", "props": { "text": "SPOILER", "color": "#ff5d73", "rotate": -6 } },
+        { "id": "esquisito", "kind": "kinetic", "at_word": "esquisito", "slot": "center-down", "enter": "wobble", "props": { "text": "fica esquisito muito rápido", "size": 84, "color": "#ffe066" } }
+      ],
+      "cues": [
+        { "at_word": "dobro", "target": "camera", "action": "punch", "scale": 1.08 },
+        { "at_word": "spoiler", "target": "camera", "action": "shake" },
+        { "at_word": "rápido", "target": "camera", "action": "zoom", "scale": 1.15, "x": 0, "y": 60 }
+      ],
+      "transition_out": { "type": "wipe", "direction": "from-left", "frames": 18, "timing": "linear" }
+    },
+    {
+      "id": "s02-regra",
+      "type": "character",
+      "act": "Gancho — a regra",
+      "narration": "A regra é simples. Hoje à noite, você dorme do jeitinho que é. Amanhã, ao acordar, sua inteligência dobra. Depois de amanhã, dobra de novo. E assim por diante, todo santo dia, sem pausa para o fim de semana.",
+      "setting": { "name": "bedroom", "variant": "night" },
+      "cast": [ { "id": "ana", "x": 720, "pose": "idle", "expression": "happy" } ],
+      "cues": [
+        { "at_word": "regra", "target": "ana", "action": "point", "expression": "happy" },
+        { "at_word": "regra", "target": "overlay", "action": "title", "text": "A REGRA" },
+        { "at_word": "noite", "target": "ana", "action": "yawn", "expression": "sleepy" },
+        { "at_word": "dorme", "target": "ana", "action": "sleep", "expression": "asleep" },
+        { "at_word": "dorme", "target": "set", "action": "lights_off" },
+        { "at_word": "dorme", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "zzz" },
+        { "at_word": "amanhã", "nth": 1, "target": "set", "action": "morning" },
+        { "at_word": "amanhã", "nth": 1, "target": "bubble", "action": "hide", "owner": "ana" },
+        { "at_word": "amanhã", "nth": 1, "target": "ana", "action": "stretch", "expression": "surprised" },
+        { "at_word": "dobra", "nth": 1, "target": "badge", "action": "set", "day": 1 },
+        { "at_word": "dobra", "nth": 1, "target": "ana", "action": "celebrate", "expression": "laugh" },
+        { "at_word": "dobra", "nth": 1, "target": "camera", "action": "punch", "scale": 1.06 },
+        { "at_word": "dobra", "nth": 2, "target": "badge", "action": "set", "day": 2 },
+        { "at_word": "dobra", "nth": 2, "target": "ana", "action": "point", "expression": "smug" },
+        { "at_word": "assim", "target": "set", "action": "cycle" },
+        { "at_word": "assim", "target": "badge", "action": "count", "from_day": 2, "to_day": 6 },
+        { "at_word": "santo", "target": "camera", "action": "zoom", "scale": 1.18, "x": -200, "y": -120 },
+        { "at_word": "pausa", "target": "ana", "action": "shrug", "expression": "awkward" },
+        { "at_word": "pausa", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "text": "Nem no sábado?" }
+      ],
+      "transition_out": { "type": "slide", "direction": "from-bottom", "frames": 20, "timing": "spring" }
+    },
+    {
+      "id": "s03-conta",
+      "type": "edit",
+      "act": "A conta",
+      "narration": "Vamos à conta. Dia um: duas vezes a inteligência original. Dia dois: quatro. Dia três: oito. Parece pouco. Mas no dia sete já são cento e vinte e oito vezes. No dia dez, mil e vinte e quatro. No dia vinte, mais de um milhão. E no dia trinta, mais de um bilhão.",
+      "background": "grid",
+      "layers": [
+        { "id": "formula", "kind": "equation", "at_word": "conta", "slot": "top", "enter": "drop", "props": { "text": "inteligência = 2", "exp": "dia" } },
+        { "id": "escada", "kind": "ladder", "at_word": "um", "slot": "left", "items": [
+          { "at_word": "um", "day": 1 }, { "at_word": "dois", "day": 2 }, { "at_word": "três", "day": 3 },
+          { "at_word": "sete", "day": 7 }, { "at_word": "dez", "day": 10 }, { "at_word": "vinte", "nth": 3, "day": 20 }, { "at_word": "trinta", "day": 30 }
+        ] },
+        { "id": "contador", "kind": "counter", "at_word": "um", "slot": "right", "props": { "size": 150 }, "items": [
+          { "at_word": "um", "day": 1 }, { "at_word": "dois", "day": 2 }, { "at_word": "três", "day": 3 },
+          { "at_word": "sete", "day": 7 }, { "at_word": "dez", "day": 10 }, { "at_word": "vinte", "nth": 3, "day": 20 }, { "at_word": "trinta", "day": 30 }
+        ] },
+        { "id": "blocos", "kind": "blocks", "at_word": "um", "until_word": "sete", "slot": "right-down", "items": [ { "at_word": "um", "day": 1 }, { "at_word": "dois", "day": 2 }, { "at_word": "três", "day": 3 } ] },
+        { "id": "pouco", "kind": "kinetic", "at_word": "parece", "until_word": "sete", "slot": "right-up", "enter": "slide-up", "props": { "text": "parece pouco…", "size": 64, "color": "#9aa7c7" } }
+      ],
+      "cues": [
+        { "at_word": "sete", "target": "camera", "action": "zoom", "scale": 1.05, "x": 40, "y": 0 },
+        { "at_word": "milhão", "target": "camera", "action": "shake" },
+        { "at_word": "bilhão", "target": "camera", "action": "punch", "scale": 1.12 },
+        { "at_word": "bilhão", "target": "fx", "action": "flash" }
+      ],
+      "transition_out": { "type": "flip", "direction": "from-right", "frames": 20, "timing": "spring" }
+    },
+    {
+      "id": "s04-dia1",
+      "type": "character",
+      "act": "Ato 1 — dia 1",
+      "narration": "Dia um. Ninguém percebe nada, mas você termina as palavras cruzadas antes do café esfriar. Entende, pela primeira vez, o manual da air fryer. E descobre que, naquela discussão de ontem, a razão não estava com você. Que maravilha de começo.",
+      "setting": { "name": "kitchen", "variant": "morning" },
+      "cast": [ { "id": "ana", "x": 760, "pose": "idle", "expression": "neutral" } ],
+      "props": [ { "id": "airfryer", "x": 1380, "y": 640 }, { "id": "mug", "x": 1080, "y": 640, "steam": true } ],
+      "badge_day": 1,
+      "cues": [
+        { "at_word": "dia", "target": "overlay", "action": "title", "text": "DIA 1 · 2×" },
+        { "at_word": "ninguém", "target": "ana", "action": "idle", "expression": "smug" },
+        { "at_word": "cruzadas", "target": "ana", "action": "hold", "item": "newspaper", "expression": "happy" },
+        { "at_word": "esfriar", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "icon": "check", "text": "Pronto!" },
+        { "at_word": "manual", "target": "ana", "action": "point", "expression": "surprised" },
+        { "at_word": "manual", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "bulb", "text": "Ahhh… então é assim!" },
+        { "at_word": "air", "target": "camera", "action": "zoom", "scale": 1.25, "x": 380, "y": 60 },
+        { "at_word": "discussão", "target": "camera", "action": "zoom", "scale": 1.3, "x": -120, "y": -180 },
+        { "at_word": "discussão", "target": "ana", "action": "think", "expression": "thinking" },
+        { "at_word": "discussão", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "text": "Ontem eu tinha razão… né?" },
+        { "at_word": "razão", "target": "ana", "action": "facepalm", "expression": "awkward" },
+        { "at_word": "razão", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "text": "…não tinha." },
+        { "at_word": "maravilha", "target": "camera", "action": "reset" },
+        { "at_word": "maravilha", "target": "ana", "action": "shrug", "expression": "laugh" },
+        { "at_word": "maravilha", "target": "bubble", "action": "hide", "owner": "ana" }
+      ],
+      "transition_out": { "type": "clockWipe", "frames": 22, "timing": "linear" }
+    },
+    {
+      "id": "s05-dia3",
+      "type": "edit",
+      "act": "Ato 2 — dia 3",
+      "narration": "Dia três: oito vezes. No trabalho, a planilha que levava uma tarde fica pronta antes da primeira reunião. Livros técnicos descem como memes. E você aprende uma lição valiosa: corrigir o chefe na frente de todo mundo não é inteligente. Ainda.",
+      "background": "warm",
+      "layers": [
+        { "id": "dia", "kind": "daychip", "at_word": "dia", "slot": "top-left", "enter": "slide-right", "props": { "day": 3 } },
+        { "id": "planilha", "kind": "icon", "at_word": "planilha", "slot": "left", "enter": "pop", "props": { "icon": "sheet", "size": 220, "label": "1 tarde → 1 café" } },
+        { "id": "relogio", "kind": "icon", "at_word": "tarde", "until_word": "livros", "slot": "left-up", "enter": "pop", "props": { "icon": "clock", "size": 110, "spin": 8 } },
+        { "id": "ok", "kind": "icon", "at_word": "reunião", "slot": "left-down", "enter": "slam", "props": { "icon": "check", "size": 120 } },
+        { "id": "livro", "kind": "morph", "at_word": "livros", "slot": "center", "props": { "from_icon": "book", "to_icon": "meme", "to_at_word": "memes", "label_from": "Livro técnico", "label_to": "meme" } },
+        { "id": "alerta", "kind": "icon", "at_word": "lição", "slot": "right-up", "enter": "drop", "props": { "icon": "warning", "size": 150 } },
+        { "id": "regra", "kind": "kinetic", "at_word": "corrigir", "slot": "right", "enter": "typewriter", "props": { "text": "Não corrigir o chefe em público", "size": 54, "color": "#2b2118", "max_width": 560 } },
+        { "id": "ainda", "kind": "stamp", "at_word": "ainda", "slot": "right-down", "enter": "slam", "props": { "text": "AINDA.", "color": "#d6336c", "rotate": 8 } }
+      ],
+      "cues": [
+        { "at_word": "planilha", "target": "camera", "action": "zoom", "scale": 1.12, "x": -420, "y": 0 },
+        { "at_word": "livros", "target": "camera", "action": "zoom", "scale": 1.12, "x": 0, "y": 0 },
+        { "at_word": "lição", "target": "camera", "action": "zoom", "scale": 1.12, "x": 420, "y": 0 },
+        { "at_word": "ainda", "target": "camera", "action": "shake" }
+      ],
+      "transition_out": { "type": "slide", "direction": "from-right", "frames": 16, "timing": "linear" }
+    },
+    {
+      "id": "s06-dia7",
+      "type": "character",
+      "act": "Ato 3 — dia 7",
+      "narration": "Dia sete: cento e vinte e oito vezes. Você aprende japonês no café da manhã e finlandês no almoço. Mas conversar fica estranho. Você já sabe o fim de cada frase antes da pessoa terminar. Seu amigo conta uma piada, e você precisa lembrar de rir na hora certa.",
+      "setting": { "name": "living", "variant": "day" },
+      "cast": [ { "id": "ana", "x": 640, "pose": "idle", "expression": "happy" }, { "id": "beto", "x": 1300, "pose": "idle", "expression": "neutral" } ],
+      "badge_day": 7,
+      "cues": [
+        { "at_word": "dia", "target": "overlay", "action": "title", "text": "DIA 7 · 128×" },
+        { "at_word": "japonês", "target": "ana", "action": "wave", "expression": "happy" },
+        { "at_word": "japonês", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "text": "Ohayō gozaimasu!" },
+        { "at_word": "finlandês", "target": "ana", "action": "point", "expression": "smug" },
+        { "at_word": "finlandês", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "text": "Hyvää huomenta!" },
+        { "at_word": "finlandês", "target": "beto", "action": "idle", "expression": "surprised" },
+        { "at_word": "conversar", "target": "bubble", "action": "hide", "owner": "ana" },
+        { "at_word": "conversar", "target": "beto", "action": "talk", "expression": "happy" },
+        { "at_word": "conversar", "target": "bubble", "action": "show", "owner": "beto", "style": "speech", "text": "Então, eu tava pensando…" },
+        { "at_word": "estranho", "target": "camera", "action": "zoom", "scale": 1.12, "x": 0, "y": -60 },
+        { "at_word": "fim", "target": "ana", "action": "think", "expression": "smug" },
+        { "at_word": "fim", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "text": "…em pedir pizza." },
+        { "at_word": "piada", "target": "beto", "action": "explain", "expression": "laugh" },
+        { "at_word": "piada", "target": "bubble", "action": "show", "owner": "beto", "style": "speech", "text": "…e aí o pato disse: QUAC!" },
+        { "at_word": "piada", "target": "bubble", "action": "hide", "owner": "ana" },
+        { "at_word": "lembrar", "target": "ana", "action": "idle", "expression": "awkward" },
+        { "at_word": "lembrar", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "text": "rir em 3… 2… 1…" },
+        { "at_word": "rir", "target": "ana", "action": "laugh", "expression": "laugh" },
+        { "at_word": "rir", "target": "camera", "action": "punch", "scale": 1.1 },
+        { "at_word": "certa", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "text": "HA. HA. HA." }
+      ],
+      "transition_out": { "type": "wipe", "direction": "from-top-right", "frames": 18, "timing": "linear" }
+    },
+    {
+      "id": "s07-dia10",
+      "type": "edit",
+      "act": "Ato 4 — dia 10",
+      "narration": "Dia dez: mil e vinte e quatro vezes. Você lê uma biblioteca inteira num fim de semana. Equações que pareciam hieróglifos agora parecem lista de supermercado. Você escreve um artigo científico e precisa simplificar tudo, porque ninguém consegue revisar.",
+      "background": "night",
+      "layers": [
+        { "id": "dia", "kind": "daychip", "at_word": "dia", "slot": "top-left", "enter": "drop", "props": { "day": 10 } },
+        { "id": "contador", "kind": "counter", "at_word": "mil", "until_word": "biblioteca", "slot": "center", "props": { "size": 200, "roll_from_day": 7 }, "items": [ { "at_word": "mil", "day": 10 } ] },
+        { "id": "estante", "kind": "bookshelf", "at_word": "biblioteca", "until_word": "equações", "slot": "center", "props": { "label_at_word": "semana", "label": "fim de semana ✓" } },
+        { "id": "equacao", "kind": "textmorph", "at_word": "equações", "until_word": "artigo", "slot": "center", "props": { "from": "∫ eˣ dx · Σ 1/n² · ∇×B", "to": "☐ pão   ☐ leite   ☐ café", "to_at_word": "supermercado", "size": 72 } },
+        { "id": "artigo", "kind": "paper", "at_word": "artigo", "slot": "center", "props": { "shrink_at_word": "simplificar", "title": "Artigo científico" } },
+        { "id": "revisores", "kind": "stamp", "at_word": "ninguém", "slot": "right-down", "enter": "slam", "props": { "text": "REVISORES: ???", "color": "#ffb703", "rotate": -8 } }
+      ],
+      "cues": [
+        { "at_word": "mil", "target": "camera", "action": "punch", "scale": 1.08 },
+        { "at_word": "biblioteca", "target": "camera", "action": "zoom", "scale": 0.92, "x": 0, "y": 0 },
+        { "at_word": "supermercado", "target": "camera", "action": "zoom", "scale": 1.1, "x": 0, "y": 0 },
+        { "at_word": "revisar", "target": "camera", "action": "shake" }
+      ],
+      "transition_out": { "type": "fade", "frames": 14, "timing": "linear" }
+    },
+    {
+      "id": "s08-casa",
+      "type": "character",
+      "act": "Ato 4 — dia 10 em casa",
+      "narration": "Em casa, você conserta o micro-ondas, otimiza a rota até a padaria e resolve o maior mistério doméstico: dobrar lençol com elástico. Logo, a família inteira te liga pra tudo. Você virou o suporte técnico da humanidade. Começando pela sua tia.",
+      "setting": { "name": "kitchen", "variant": "evening" },
+      "cast": [ { "id": "ana", "x": 820, "pose": "idle", "expression": "happy" }, { "id": "tia", "x": 2300, "pose": "idle", "expression": "happy" } ],
+      "props": [ { "id": "microwave", "x": 1420, "y": 640 } ],
+      "badge_day": 10,
+      "cues": [
+        { "at_word": "micro-ondas", "target": "ana", "action": "point", "expression": "happy" },
+        { "at_word": "micro-ondas", "target": "prop", "action": "fix", "prop": "microwave" },
+        { "at_word": "micro-ondas", "target": "camera", "action": "zoom", "scale": 1.15, "x": 300, "y": 0 },
+        { "at_word": "rota", "target": "camera", "action": "reset" },
+        { "at_word": "rota", "target": "ana", "action": "think", "expression": "thinking" },
+        { "at_word": "rota", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "route", "text": "padaria: 3 min mais rápido" },
+        { "at_word": "lençol", "target": "ana", "action": "hold", "item": "sheet", "expression": "surprised" },
+        { "at_word": "elástico", "target": "ana", "action": "celebrate", "expression": "laugh" },
+        { "at_word": "elástico", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "icon": "check", "text": "DOBRADO!" },
+        { "at_word": "família", "target": "ana", "action": "hold", "item": "phone", "expression": "surprised" },
+        { "at_word": "família", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "icon": "phone", "text": "Alô? Imposto? Receita?" },
+        { "at_word": "tudo", "target": "fx", "action": "rings" },
+        { "at_word": "suporte", "target": "ana", "action": "shrug", "expression": "awkward" },
+        { "at_word": "suporte", "target": "overlay", "action": "title", "text": "SUPORTE TÉCNICO DA HUMANIDADE" },
+        { "at_word": "começando", "target": "tia", "action": "wave", "expression": "happy", "move_to": 1420 },
+        { "at_word": "tia", "target": "bubble", "action": "show", "owner": "tia", "style": "speech", "text": "Querida, o Wi-Fi sumiu!" },
+        { "at_word": "tia", "target": "ana", "action": "facepalm", "expression": "laugh" }
+      ],
+      "transition_out": { "type": "iris", "frames": 20, "timing": "spring" }
+    },
+    {
+      "id": "s09-dia20",
+      "type": "edit",
+      "act": "Ato 5 — dia 20",
+      "narration": "Dia vinte: mais de um milhão de vezes. Aqui, a comparação humana quebra. Não é como ser um gênio. É como ser uma cidade inteira de gênios pensando ao mesmo tempo, sem nenhuma reunião. Você rascunha teorias novas no banho, enquanto o xampu ainda faz espuma.",
+      "background": "purple",
+      "layers": [
+        { "id": "dia", "kind": "daychip", "at_word": "dia", "slot": "top-left", "enter": "slide-right", "props": { "day": 20 } },
+        { "id": "contador", "kind": "counter", "at_word": "milhão", "until_word": "comparação", "slot": "center", "props": { "size": 170, "roll_from_day": 10 }, "items": [ { "at_word": "milhão", "day": 20 } ] },
+        { "id": "regua", "kind": "breakbar", "at_word": "comparação", "until_word": "gênio", "slot": "center", "props": { "label": "escala humana", "break_at_word": "quebra" } },
+        { "id": "multidao", "kind": "crowd", "at_word": "gênio", "until_word": "banho", "slot": "center", "props": { "grow_at_word": "cidade", "label_at_word": "reunião", "label": "sem nenhuma reunião ✓" } },
+        { "id": "banho", "kind": "shower", "at_word": "banho", "slot": "center", "props": { "ideas_at_word": "teorias", "foam_at_word": "espuma" } }
+      ],
+      "cues": [
+        { "at_word": "milhão", "target": "camera", "action": "punch", "scale": 1.1 },
+        { "at_word": "quebra", "target": "camera", "action": "shake" },
+        { "at_word": "cidade", "target": "camera", "action": "zoom", "scale": 0.9, "x": 0, "y": 0 },
+        { "at_word": "banho", "target": "camera", "action": "zoom", "scale": 1.08, "x": 0, "y": 40 }
+      ],
+      "transition_out": { "type": "slide", "direction": "from-left", "frames": 18, "timing": "spring" }
+    },
+    {
+      "id": "s10-explicar",
+      "type": "character",
+      "act": "Ato 5 — dia 20, relações",
+      "narration": "O difícil agora é explicar. Você tenta contar uma ideia pra alguém e percebe que precisaria de meses só pra ensinar o vocabulário. Então você simplifica. E simplifica de novo. Até sobrar uma frase. E a resposta vem: legal, quer pizza?",
+      "setting": { "name": "living", "variant": "evening" },
+      "cast": [ { "id": "ana", "x": 560, "pose": "idle", "expression": "neutral" }, { "id": "beto", "x": 1380, "pose": "idle", "expression": "happy" } ],
+      "props": [ { "id": "whiteboard", "x": 960, "y": 420, "density": 0 } ],
+      "badge_day": 20,
+      "cues": [
+        { "at_word": "difícil", "target": "overlay", "action": "title", "text": "DIA 20 · 1.048.576×" },
+        { "at_word": "explicar", "target": "ana", "action": "explain", "expression": "happy" },
+        { "at_word": "explicar", "target": "prop", "action": "density", "prop": "whiteboard", "value": 3 },
+        { "at_word": "meses", "target": "beto", "action": "idle", "expression": "confused" },
+        { "at_word": "meses", "target": "bubble", "action": "show", "owner": "beto", "style": "thought", "text": "???" },
+        { "at_word": "vocabulário", "target": "ana", "action": "think", "expression": "worried" },
+        { "at_word": "simplifica", "nth": 1, "target": "prop", "action": "density", "prop": "whiteboard", "value": 2 },
+        { "at_word": "simplifica", "nth": 1, "target": "ana", "action": "point", "expression": "neutral" },
+        { "at_word": "simplifica", "nth": 2, "target": "prop", "action": "density", "prop": "whiteboard", "value": 1 },
+        { "at_word": "simplifica", "nth": 2, "target": "camera", "action": "zoom", "scale": 1.15, "x": 0, "y": -140 },
+        { "at_word": "frase", "target": "prop", "action": "density", "prop": "whiteboard", "value": 0 },
+        { "at_word": "frase", "target": "ana", "action": "celebrate", "expression": "happy" },
+        { "at_word": "legal", "target": "camera", "action": "reset" },
+        { "at_word": "legal", "target": "beto", "action": "talk", "expression": "laugh" },
+        { "at_word": "legal", "target": "bubble", "action": "show", "owner": "beto", "style": "speech", "text": "Legal! Quer pizza?" },
+        { "at_word": "pizza", "target": "beto", "action": "hold", "item": "pizza", "expression": "happy" },
+        { "at_word": "pizza", "target": "ana", "action": "shrug", "expression": "awkward" }
+      ],
+      "transition_out": { "type": "flip", "direction": "from-bottom", "frames": 22, "timing": "spring" }
+    },
+    {
+      "id": "s11-dia30",
+      "type": "edit",
+      "act": "Ato 6 — dia 30",
+      "narration": "Dia trinta: mais de um bilhão de vezes. Mais exatamente, um bilhão e setenta e três milhões. Só nessa manhã, você ganha mais do que em todos os vinte e nove dias anteriores somados. A curva, que parecia deitada, agora sobe como uma parede.",
+      "background": "grid",
+      "layers": [
+        { "id": "dia", "kind": "daychip", "at_word": "dia", "slot": "top-left", "enter": "drop", "props": { "day": 30 } },
+        { "id": "grafico", "kind": "chart", "at_word": "dia", "slot": "full", "props": {
+          "draw_to_day": 30, "draw_at_word": "trinta",
+          "exact_at_word": "exatamente",
+          "gain_at_word": "manhã",
+          "sum_at_word": "somados",
+          "flat_at_word": "deitada",
+          "wall_at_word": "parede"
+        } },
+        { "id": "contador", "kind": "counter", "at_word": "bilhão", "slot": "center-up", "props": { "size": 110, "roll_from_day": 20 }, "items": [ { "at_word": "bilhão", "day": 30 } ] }
+      ],
+      "cues": [
+        { "at_word": "bilhão", "nth": 1, "target": "camera", "action": "punch", "scale": 1.06 },
+        { "at_word": "deitada", "target": "camera", "action": "zoom", "scale": 1.5, "x": -260, "y": 220 },
+        { "at_word": "parede", "target": "camera", "action": "zoom", "scale": 1.0, "x": 0, "y": 0 },
+        { "at_word": "parede", "target": "camera", "action": "shake" }
+      ],
+      "transition_out": { "type": "wipe", "direction": "from-right", "frames": 16, "timing": "linear" }
+    },
+    {
+      "id": "s11b-pronto",
+      "type": "character",
+      "act": "Ato 6 — dia 30, a tentação",
+      "narration": "Você acorda no dia trinta, olha pela janela e pensa: pronto, agora eu resolvo tudo. A fome, o clima, a fila do banco. Fácil. Né?",
+      "setting": { "name": "bedroom", "variant": "morning" },
+      "cast": [ { "id": "ana", "x": 760, "pose": "stretch", "expression": "sleepy" } ],
+      "badge_day": 30,
+      "cues": [
+        { "at_word": "acorda", "target": "ana", "action": "stretch", "expression": "happy" },
+        { "at_word": "trinta", "target": "overlay", "action": "title", "text": "DIA 30 · 1.073.741.824×" },
+        { "at_word": "janela", "target": "ana", "action": "point", "expression": "surprised" },
+        { "at_word": "janela", "target": "camera", "action": "zoom", "scale": 1.15, "x": 360, "y": -80 },
+        { "at_word": "pronto", "target": "camera", "action": "reset" },
+        { "at_word": "pronto", "target": "ana", "action": "celebrate", "expression": "smug" },
+        { "at_word": "fome", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "check", "text": "fome" },
+        { "at_word": "clima", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "check", "text": "fome · clima" },
+        { "at_word": "fila", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "check", "text": "fome · clima · fila do banco" },
+        { "at_word": "fácil", "target": "ana", "action": "proud", "expression": "smug" },
+        { "at_word": "né", "target": "ana", "action": "idle", "expression": "worried" },
+        { "at_word": "né", "target": "bubble", "action": "hide", "owner": "ana" },
+        { "at_word": "né", "target": "camera", "action": "zoom", "scale": 1.35, "x": -60, "y": -260 }
+      ],
+      "transition_out": { "type": "cut", "frames": 0 }
+    },
+    {
+      "id": "s12-virada",
+      "type": "edit",
+      "act": "A virada — dados",
+      "narration": "Mas aqui vem a virada. Inteligência não cria dados do nada. Você pode pensar muito rápido sobre uma doença, mas ainda precisa de exames, testes e tempo. Experimentos levam o tempo que levam. E nenhuma planta cresce mais rápido só porque você é genial.",
+      "background": "paper",
+      "layers": [
+        { "id": "mas", "kind": "stamp", "at_word": "mas", "until_word": "inteligência", "slot": "center", "enter": "slam", "props": { "text": "MAS…", "color": "#1d3557", "rotate": -3, "size": 220 } },
+        { "id": "pasta", "kind": "icon", "at_word": "dados", "until_word": "pensar", "slot": "center", "enter": "pop", "props": { "icon": "folder", "size": 260, "label": "dados: (vazio)" } },
+        { "id": "cerebro", "kind": "icon", "at_word": "pensar", "until_word": "experimentos", "slot": "top", "enter": "pop", "props": { "icon": "brain", "size": 150, "pulse": true, "label": "pensa rápido" } },
+        { "id": "lab", "kind": "iconrow", "at_word": "exames", "until_word": "experimentos", "slot": "center-down", "items": [
+          { "at_word": "exames", "icon": "flask", "label": "exames" },
+          { "at_word": "testes", "icon": "tube", "label": "testes" },
+          { "at_word": "tempo", "nth": 1, "icon": "hourglass", "label": "tempo" }
+        ] },
+        { "id": "relogio", "kind": "icon", "at_word": "experimentos", "until_word": "planta", "slot": "center", "enter": "pop", "props": { "icon": "clock", "size": 260, "spin": 0.15, "label": "o tempo que leva" } },
+        { "id": "planta", "kind": "plant", "at_word": "planta", "slot": "center", "props": { "label_at_word": "genial", "label": "genialidade não é adubo" } }
+      ],
+      "cues": [
+        { "at_word": "virada", "target": "camera", "action": "shake" },
+        { "at_word": "experimentos", "target": "camera", "action": "zoom", "scale": 1.12, "x": 0, "y": 0 },
+        { "at_word": "planta", "target": "camera", "action": "zoom", "scale": 1.0, "x": 0, "y": 0 }
+      ],
+      "transition_out": { "type": "fade", "frames": 24, "timing": "linear" }
+    },
+    {
+      "id": "s13-solidao",
+      "type": "character",
+      "act": "A virada — corpo e solidão",
+      "narration": "Seu corpo continua o mesmo. Você ainda precisa dormir, comer e esperar a água ferver. E tem a parte mais difícil: ninguém te acompanha. A cada manhã, você acorda um pouco mais longe das pessoas que ama.",
+      "setting": { "name": "kitchen", "variant": "night" },
+      "cast": [ { "id": "ana", "x": 900, "pose": "idle", "expression": "neutral" }, { "id": "beto", "x": 500, "pose": "idle", "expression": "happy" }, { "id": "tia", "x": 1340, "pose": "idle", "expression": "happy" } ],
+      "props": [ { "id": "kettle", "x": 1560, "y": 640 } ],
+      "badge_day": 30,
+      "cues": [
+        { "at_word": "dormir", "target": "ana", "action": "yawn", "expression": "sleepy" },
+        { "at_word": "comer", "target": "ana", "action": "hold", "item": "mug", "expression": "neutral" },
+        { "at_word": "ferver", "target": "prop", "action": "boil", "prop": "kettle" },
+        { "at_word": "ferver", "target": "camera", "action": "zoom", "scale": 1.2, "x": 420, "y": 40 },
+        { "at_word": "ferver", "target": "bubble", "action": "show", "owner": "ana", "style": "thought", "icon": "hourglass", "text": "…ainda não." },
+        { "at_word": "difícil", "target": "camera", "action": "reset" },
+        { "at_word": "difícil", "target": "bubble", "action": "hide", "owner": "ana" },
+        { "at_word": "difícil", "target": "ana", "action": "idle", "expression": "worried" },
+        { "at_word": "acompanha", "target": "beto", "action": "wave", "expression": "sad", "move_to": -300 },
+        { "at_word": "acompanha", "target": "tia", "action": "wave", "expression": "sad", "move_to": 2250 },
+        { "at_word": "manhã", "target": "set", "action": "dusk" },
+        { "at_word": "longe", "target": "camera", "action": "zoom", "scale": 0.85, "x": 0, "y": 0 },
+        { "at_word": "ama", "target": "ana", "action": "hug", "expression": "sad" }
+      ],
+      "transition_out": { "type": "wipe", "direction": "from-bottom", "frames": 26, "timing": "linear" }
+    },
+    {
+      "id": "s14-sabedoria",
+      "type": "edit",
+      "act": "A virada — sabedoria",
+      "narration": "Porque inteligência é saber resolver problemas. Sabedoria é saber quais problemas valem a pena. Uma pode dobrar todo dia. A outra cresce devagar, com erros, conversas e gente por perto.",
+      "background": "dusk",
+      "layers": [
+        { "id": "intel", "kind": "column", "at_word": "inteligência", "slot": "left", "props": { "title": "INTELIGÊNCIA", "subtitle": "resolver problemas", "subtitle_at_word": "resolver", "color": "#4dabf7", "grow": "fast", "grow_at_word": "dobrar" } },
+        { "id": "sabed", "kind": "column", "at_word": "sabedoria", "slot": "right", "props": { "title": "SABEDORIA", "subtitle": "escolher quais valem a pena", "subtitle_at_word": "valem", "color": "#ffa94d", "grow": "slow", "grow_at_word": "devagar" } },
+        { "id": "ingredientes", "kind": "iconrow", "at_word": "erros", "slot": "right-down", "props": { "size": 90 }, "items": [
+          { "at_word": "erros", "icon": "x", "label": "erros" },
+          { "at_word": "conversas", "icon": "chat", "label": "conversas" },
+          { "at_word": "gente", "icon": "people", "label": "gente" }
+        ] }
+      ],
+      "cues": [
+        { "at_word": "sabedoria", "target": "camera", "action": "zoom", "scale": 1.05, "x": 160, "y": 0 },
+        { "at_word": "dobrar", "target": "camera", "action": "zoom", "scale": 1.08, "x": -260, "y": 0 },
+        { "at_word": "devagar", "target": "camera", "action": "zoom", "scale": 1.08, "x": 260, "y": 0 }
+      ],
+      "transition_out": { "type": "fade", "frames": 30, "timing": "linear" }
+    },
+    {
+      "id": "s15-fechamento",
+      "type": "character",
+      "act": "Fechamento",
+      "narration": "No fim, a mente mais poderosa do planeta ainda ia querer a mesma coisa que você quer hoje: alguém do outro lado da mesa, que entenda a piada. Mesmo que você tenha que explicar duas vezes.",
+      "setting": { "name": "table", "variant": "warm" },
+      "cast": [ { "id": "ana", "x": 640, "pose": "idle", "expression": "neutral" }, { "id": "beto", "x": 1280, "pose": "idle", "expression": "happy" } ],
+      "props": [ { "id": "mug", "x": 860, "y": 735 }, { "id": "mug", "x": 1060, "y": 735 } ],
+      "badge_day": 30,
+      "tail_seconds": 3,
+      "cues": [
+        { "at_word": "mente", "target": "ana", "action": "think", "expression": "thinking" },
+        { "at_word": "mente", "target": "badge", "action": "glow" },
+        { "at_word": "mesma", "target": "ana", "action": "idle", "expression": "happy" },
+        { "at_word": "mesa", "target": "camera", "action": "zoom", "scale": 1.12, "x": 0, "y": -40 },
+        { "at_word": "mesa", "target": "beto", "action": "wave", "expression": "happy" },
+        { "at_word": "piada", "target": "ana", "action": "talk", "expression": "laugh" },
+        { "at_word": "piada", "target": "bubble", "action": "show", "owner": "ana", "style": "speech", "text": "…e aí o pato disse: QUAC!" },
+        { "at_word": "explicar", "target": "beto", "action": "idle", "expression": "confused" },
+        { "at_word": "explicar", "target": "ana", "action": "explain", "expression": "happy" },
+        { "at_word": "duas", "target": "badge", "action": "label", "text": "2×" },
+        { "at_word": "duas", "target": "bubble", "action": "show", "owner": "beto", "style": "speech", "text": "HAHAHA! Entendi!" },
+        { "at_word": "duas", "target": "beto", "action": "laugh", "expression": "laugh" },
+        { "at_word": "vezes", "target": "ana", "action": "laugh", "expression": "laugh" },
+        { "at_word": "vezes", "target": "overlay", "action": "end", "text": "Inteligência dobra. Companhia, a gente constrói." }
+      ],
+      "transition_out": { "type": "none", "frames": 0 }
+    }
+  ]
+}
